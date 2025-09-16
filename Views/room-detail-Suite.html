@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vista de deatalle Suite</title>
+    <title>vista de deatalle con formulario</title>
 </head>
+
 <body>
     <h1>
-        Detalle de la Habitacion Suite
+        Detalle de la Habitacion
     </h1>
 
     <ul>
@@ -24,5 +26,102 @@
             <a href="../contact.html">Contacto</a>
         </li>
     </ul>
+
+    <h2>
+        Suite
+    </h2>
+
+    <img width="350" src="../assets/Img/Habitacion_Suite.png" alt="">
+
+    <ul>
+        <b>Junior Suite puede incluir:</b>
+        <li>
+            Terrace
+        </li>
+        <li>
+            Vista del puerto, Vista al mar
+        </li>
+        <li>
+            Sofá cama
+        </li>
+        <li>
+            4 personas
+        </li>
+        <li>
+            No fumar
+        </li>
+        <li>
+            64 m<sup>2</sup>
+        </li>
+    </ul>
+
+    <b>Precio:</b> $10,378 MXN
+
+    <h3>
+        Reservar ahora
+    </h3>
+
+    <!--Reservacion de habitacion-->
+
+    <form action="">
+
+        <label for="nombre">
+            Nombre completo:
+        </label>
+        <br>
+        <input type="text" name="nombre" id="nombre">
+
+        <br>
+        <br>
+
+        <label for="correo">
+            Correo electronico:
+        </label>
+        <br>
+        <input type="email" name="correo" id="correo" placeholder="joor_23@alu.uabcs.mx">
+
+        <br>
+        <br>
+
+        <label for="entrada">
+            Check-in:
+        </label>
+        <br>
+        <input type="date" name="entrada" id="entrada">
+
+        <br>
+        <br>
+
+        <label for="salida">
+            Check-out:
+        </label>
+        <br>
+        <input type="date" name="salida" id="salida">
+
+        <br>
+        <br>
+
+        <label for="persona">
+            Cantidad de personas
+        </label>
+        <br>
+        <input type="number" name="persona" id="persona">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Reservar ahora">
+
+    </form>
+
+    <br>
+
+    <a href="rooms.html">Volver a habitaciones</a>
+
+    <br>
+
+    <p>&#169 2025 Hotel Indigo</p>
+
 </body>
+
 </html>
