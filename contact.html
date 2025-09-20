@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario + mapa</title>
 </head>
+
 <body>
     <h1>
         Contacto
@@ -15,10 +17,10 @@
             <a href="index.html">Inicio</a>
         </li>
         <li>
-            <a href="/Views/rooms.html">Habitaciones</a>
+            <a href="Views/rooms.html">Habitaciones</a>
         </li>
         <li>
-            <a href="/Views/about.html">Sobre Nosotros</a>
+            <a href="Views/about.html">Sobre Nosotros</a>
         </li>
         <li>
             <a href="contact.html">Contacto</a>
@@ -26,13 +28,67 @@
     </ul>
 
     <h2>
-        Ubicación
+        Contáctanos
     </h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.6765291000843!2d-110.3010649!3d24.218106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd4e29373d6c3%3A0xbd98db89a2634f09!2sHotel%20Indigo%20La%20Paz%20Puerta%20Cort%C3%A9s!5e0!3m2!1ses-419!2smx!4v1757814000664!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <label for="nombre">
+        Nombre:
+    </label>
+    <br>
+    <input type="text" name="nombre" id="nombre">
+
+    <br>
+    <br>
+
+    <label for="correo">
+        Correo electronico:
+    </label>
+    <br>
+    <input type="email" name="correo" id="correo">
+
+    <br>
+    <br>
+
+    <label for="mensaje">
+        Mensaje:
+    </label>
+    <br>
+    <textarea placeholder="" id="mensaje"></textarea>
+
+    <br>
+    <br>
+
+    <input type="button" value="Enviar">
+
+    <br>
+    <br>
+
+    <h2>
+        Datos del hotel
+    </h2>
+     <p>
+        📌 Direccion: Carretera Pichilingue Km 7.5, Zona Industrial, Lomas de Palmira, 
+        23010 La Paz, B.C.S.
+    </p>
+
+    <p>
+        🕿 Télefono: 8000000404
+    </p>
 
     <br>
 
-    
+    <h2>
+        Ubicación
+    </h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.6765291000843!2d-110.3010649!3d24.218106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd4e29373d6c3%3A0xbd98db89a2634f09!2sHotel%20Indigo%20La%20Paz%20Puerta%20Cort%C3%A9s!5e0!3m2!1ses-419!2smx!4v1757814000664!5m2!1ses-419!2smx"
+        width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br>
+
+    <p>&#169 2025 Hotel Indigo</p>
 
 </body>
+
 </html>
